@@ -17,5 +17,5 @@ for match in matches:
 
 sorted_brands = sorted(brands.iteritems(), key=operator.itemgetter(1), reverse=True)
 
-for brand in sorted_brands:
-    print brand[0], brand[1]
+for brand, count in sorted_brands:
+    print brand, count
