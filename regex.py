@@ -2,7 +2,9 @@ import re
 import operator
 
 text = "Show me all Samsung LCD TVs. Show me all Samsung LCD Televisions. Show me all LCD TVs by Samsung. \
-Show me all LCD TVs from Samsung. Show me all LCD Televisions by Samsung. Show me all LCD Televisions from Sony."
+Show me all LCD TVs from Samsung. Show me all LCD Televisions by Samsung. Show me all LCD Televisions from Sony. \
+Show me a Samsung LCD TV. Show me a Samsung LCD Television. Show me a LCD TV by Samsung. \
+Show me a LCD TV from Samsung. Show me a LCD Television by Samsung. Show me a LCD Television from Sony."
 
 expression = "([A-Z][a-z]*)?\sLCD\s(TVs?|Televisions?)(\s(from|by)\s([A-Z][a-z]*))?"
 
